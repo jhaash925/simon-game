@@ -1,0 +1,58 @@
+<!-- rules.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game Rules - Simon Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .rules-container {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    body.dark-mode .rules-container {
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+    }
+
+    .rules-container h2 {
+      margin-bottom: 1rem;
+    }
+
+    .rules-container ul {
+      text-align: left;
+    }
+
+    .rules-container a {
+      display: inline-block;
+      margin-top: 1rem;
+      text-decoration: none;
+      color: #4CAF50;
+      font-weight: bold;
+    }
+
+    .rules-container a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="rules-container">
+    <h2>Simon Game Rules</h2>
+    <ul>
+      <li>The game will show you a sequence of colors.</li>
+      <li>Your task is to repeat the sequence by clicking the colored buttons.</li>
+      <li>With each new level, the sequence will get longer.</li>
+      <li>If you click the wrong color, the game ends.</li>
+      <li>Try to reach the highest level you can!</li>
+    </ul>
+    <a href="index.html">← Back to Game</a>
+  </div>
+</body>
+</html>
