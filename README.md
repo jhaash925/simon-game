@@ -17,6 +17,7 @@ A web-based implementation of the classic **Simon Memory Game**, built using HTM
 - ✅ Classic Simon memory game mechanics
 - 🌗 Light/Dark Mode toggle
 - 🔊 Mute/Unmute game sounds
+- 📘 Rules
 - 🧠 Tracks and stores **High Score** in browser
 - ⏳ Animated loading screen
 - 📱 Fully responsive – works on mobile, tablet, and desktop
